@@ -1,0 +1,505 @@
+/* Upper Section */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upper-section{
+    background-color: #373D20;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.upper-section-text{
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    font-weight: bold;
+    /* margin-top: 5px; */
+}
+
+.free-shipping-text{
+    color: #FEFEFE;
+    margin-top: 5px;
+}
+
+.upper-section-nav-text1{
+    color: #FEFEFE;
+    margin-right:15px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.upper-section-nav-text2{
+    color: #FEFEFE;
+    margin-right:15px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.upper-section-nav-text3{
+    color: #FEFEFE;
+    margin-right:15px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.upper-section-nav-text4{
+    color: #FEFEFE;
+    margin-right:15px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.upper-section-nav-text1:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.upper-section-nav-text2:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.upper-section-nav-text3:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.upper-section-nav-text4:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+/* Search Bar Section */
+
+.search-bar-section{
+    margin-top: -15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search-img{
+    height:25px;
+    position: absolute;
+    top: 57px;
+    right: 590px;
+}
+
+
+.search-bar{
+    width:640px;
+    height: 30px;
+    border:1px solid green;
+    border-radius: 3px;
+    margin-top:35px;
+    margin-left:200px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar-text{
+    color: gray;
+    font-size:10px;
+    margin-left:10px;
+}
+
+.heart-icon{
+    height: 10px;
+    width:20px;
+}
+
+.wishlist{
+    height:25px;
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.shopping_bags{
+    height:25px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.wishlist-cart{
+    display: flex;
+    position: relative;
+    top: 36px;
+    left: 500px;
+}
+
+
+/* media q */
+
+@media only screen and (max-width: 600px) {
+    .search-bar{
+        width: 200px;
+        margin-left: 30px;
+    }
+    .search-img{
+        right: 130px;
+    }
+    .wishlist-cart{
+        left: 80px;
+    }
+    
+    .nav-section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;   
+        height: 60px;     
+    }
+
+    .nav-section a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .banner-section-bg-container{
+        margin-top: -240px;
+    }
+
+    .wcu-section {
+        margin-top: -250px;
+    }
+
+    .delivery-and-payment-section-img{
+        height:270px;
+        width:30px;
+        margin-left: 220px;
+    }
+
+    .payment-section{
+        flex-direction: column;
+    }
+
+    .offer-img img{
+        display: none;
+    }
+ 
+    .cardss img{
+        margin-left: 10px;
+    }
+
+    
+
+}
+
+
+
+/* .custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+} */
+
+
+/* .delivery-and-payment-section-img {
+    width: 270px;
+    margin-top:-120px;
+} */
+
+
+
+
+
+/* Navbar */
+
+.nav-section{
+    height:100px;
+    background-color: #373D20;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.nav-section a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bite-buggy-logo{
+    width: 90px;
+    height: 80px;
+}
+
+
+
+/* Banner Section */
+
+.banner-section-bg-container {
+    /* background-image: url("https://res.cloudinary.com/dyxd3ns8k/image/upload/v1679195259/bb_wallpaper_sryplc.png"); */
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+
+/* Wcu Section */
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+
+/* Explore Menu */
+
+.explore-menu-section {
+    background-color:#373D20;
+}
+
+.menu-section-heading {
+    color: #FEFEFE;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: black;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: black;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+    background-color: #7E846B;
+}
+
+/* Delivery and Payment */
+/* Delivery and Payment */
+
+.payment-section{
+    display: flex;
+}
+
+.payment-container{
+    flex-basis: 55%;
+    margin: 40px;
+}
+.offer-img{
+  margin-left: 70px;
+}
+
+.offer-img img{
+    height: 400px;
+    width: 300px;
+}
+
+.cardss{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.cardss img{
+    height: 60px;
+    width: 50px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #373D20;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-button:hover{
+    background-color: #a49435;
+}
+
+.delivery-and-payment-section {
+    background-color: white;
+    height:350px;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+    margin-top:-120px;
+}
+
+.delivery-and-payment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #373D20;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-button:hover{
+    background-color: #a49435;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+
+
+/* Follow us */
+
+.follow-us-section {
+    background-color: #373D20;
+}
+
+.follow-us-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #FEFEFE;
+    text-align: center;
+}
+
+
+.icon {
+    color: #a49435;
+    font-size: 30px;
+}
+
+.follow-us-icon-container {
+    width: 60px;
+    height: 60px;
+    background-color: #FEFEFE;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin: 15px;
+    border-radius: 40px;
+}
+
+/* Footer Section */
+
+.footer-section {
+    background-color: #E7EAEA;
+}
+
+.footer-section-mail-id {
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: black;
+    font-family: "Roboto";
+    font-size: 14px;
+}
